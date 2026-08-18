@@ -1,0 +1,40 @@
+name: Bug report
+description: Something behaves differently from how it is documented or intended.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a security vulnerability, stop here and follow
+        [SECURITY.md](https://github.com/Doryven/.github/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The smallest reliable sequence. Exact input beats a description of it.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error output
+      description: Paste the message, log line or support code. Redact secrets and personal data.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release shown in the footer, or the commit you built from.
+    validations:
+      required: true
