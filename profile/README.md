@@ -6,9 +6,11 @@
        height="44">
 </picture>
 
-### Engineering technology for networks that move things
+### Engineering technology for operations under load
 
-Simulation, optimisation and automation for rail, maritime and multimodal freight.
+Data science, simulation, optimisation and automation. The published work is in
+freight, rail and maritime; the methods hold for any operation with constraints
+and a timetable.
 
 **[doryven.com](https://doryven.com)**
 
